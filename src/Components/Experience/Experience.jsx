@@ -1,265 +1,100 @@
 
+
 import React from "react";
 
 const Experience = () => {
   return (
-    <div id="Experience" className="p-10 md:p-24">
-
-    <div className="text-center">
-  <h1 className="text-2xl md:text-4xl text-white font-bold mb-10">
-    Experience
-  </h1>
-</div>
-
-      <div className="flex flex-col md:flex-row items-start justify-between gap-10">
-
-<div className="w-full md:w-1/2 flex justify-center items-center py-10">
-
-  <div className="relative w-[320px] h-[320px] md:w-[380px] md:h-[380px]">
-
-    <div
-      className="
-        absolute inset-0
-        rounded-full
-        border-2 border-cyan-400/30
-        animate-[spin_15s_linear_infinite]
-      "
-    ></div>
-
-    <div
-      className="
-        absolute inset-10
-        rounded-full
-        border border-cyan-400/20
-        animate-[spin_10s_linear_infinite_reverse]
-      "
-    ></div>
-
-    {/* Center Circle */}
-    <div
-      className="
-        absolute
-        top-1/2 left-1/2
-        -translate-x-1/2 -translate-y-1/2
-        w-24 h-24
-        rounded-full
-        bg-slate-950
-        border-2 border-cyan-400
-        flex items-center justify-center
-        text-white
-        font-bold
-        text-center
-        shadow-lg shadow-cyan-400/30
-        animate-pulse
-      "
+    <section
+      id="Experience"
+      className="w-full min-h-screen bg-[#0b1120] text-white px-6 md:px-12 lg:px-20 py-20"
     >
-      Skills
-    </div>
+      <div className="max-w-7xl mx-auto">
 
+        {/* Section Title */}
+        <div className="text-center mb-14">
+          <h1 className="text-3xl md:text-5xl font-bold">
+            Experience
+          </h1>
 
+          <p className="text-gray-400 mt-4">
+            Learn → Build → Improve → Repeat.
+          </p>
+        </div>
 
-    <div className="
-      absolute top-1/2 left-1/2
-      w-[120px] h-px
-      bg-cyan-400/30
-      -translate-x-1/2
-    "></div>
+        {/* Experience Card */}
+        <div className="grid md:grid-cols-2 gap-8">
 
-    <div className="
-      absolute top-1/2 left-1/2
-      w-[120px] h-px
-      bg-cyan-400/30
-      -translate-x-1/2
-      rotate-45
-    "></div>
+          {/* Academic Experience */}
+          <div className="experience-card bg-[#111827] border border-gray-700 rounded-2xl p-8">
+            <h2 className="text-2xl font-bold text-cyan-400 mb-4">
+              Academic Projects
+            </h2>
 
-    <div className="
-      absolute top-1/2 left-1/2
-      w-[120px] h-px
-      bg-cyan-400/30
-      -translate-x-1/2
-      rotate-90
-    "></div>
+            <p className="text-gray-300 leading-7">
+              Developed academic projects using HTML, CSS, Java, and
+              PostgreSQL. Built responsive and user-friendly web interfaces
+              while applying Java programming and Object-Oriented Programming
+              concepts.
+            </p>
 
-    <div className="
-      absolute top-1/2 left-1/2
-      w-[120px] h-px
-      bg-cyan-400/30
-      -translate-x-1/2
-      rotate-[135deg]
-    "></div>
-
-
-    {/* ================= BADGES ================= */}
-
-    {/* C */}
-    <img
-      className="
-        absolute top-0 left-1/2
-        -translate-x-1/2
-        animate-[float_3s_ease-in-out_infinite]
-        hover:scale-125
-        transition duration-300
-      "
-      src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"
-      alt="C"
-    />
-
-    {/* Java */}
-    <img
-      className="
-        absolute top-[18%] right-0
-        animate-[float_3s_ease-in-out_infinite]
-        hover:scale-125
-        transition duration-300
-      "
-      src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"
-      alt="Java"
-    />
-
-    {/* JavaScript */}
-    <img
-      className="
-        absolute top-[50%] right-[-20px]
-        animate-[float_3s_ease-in-out_infinite]
-        hover:scale-125
-        transition duration-300
-      "
-      src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
-      alt="JavaScript"
-    />
-
-    {/* Python */}
-    <img
-      className="
-        absolute bottom-[18%] right-0
-        animate-[float_3s_ease-in-out_infinite]
-        hover:scale-125
-        transition duration-300
-      "
-      src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
-      alt="Python"
-    />
-
-    {/* C# */}
-    <img
-      className="
-        absolute bottom-0 left-1/2
-        -translate-x-1/2
-        animate-[float_3s_ease-in-out_infinite]
-        hover:scale-125
-        transition duration-300
-      "
-      src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"
-      alt="C#"
-    />
-
-    {/* HTML */}
-    <img
-      className="
-        absolute bottom-[18%] left-0
-        animate-[float_3s_ease-in-out_infinite]
-        hover:scale-125
-        transition duration-300
-      "
-      src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-      alt="HTML"
-    />
-
-    {/* CSS */}
-    <img
-      className="
-        absolute top-[50%] left-[-20px]
-        animate-[float_3s_ease-in-out_infinite]
-        hover:scale-125
-        transition duration-300
-      "
-      src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-      alt="CSS"
-    />
-
-    {/* React */}
-    <img
-      className="
-        absolute top-[18%] left-0
-        animate-[float_3s_ease-in-out_infinite]
-        hover:scale-125
-        transition duration-300
-      "
-      src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"
-      alt="React"
-    />
-
-  </div>
-</div>
-
-
-
-
-        <div className="w-full md:w-1/2">
-
-          <div
-            className="
-              flex gap-10
-              bg-slate-950 bg-opacity-45
-              mt-4 rounded-lg p-5 items-center
-              text-white
-              transform translate-x-10 opacity-0
-              animate-[slideIn_0.8s_ease-out_forwards]
-              hover:scale-105
-              transition duration-300
-            "
-          >
-            <span>
-
-              <h2 className="leading-tight text-lg font-semibold">
-                Nepathya IOT and Robotics Union
-              </h2>
-
-              <p className="text-sm leading-tight font-thin mt-1">Sep 2024 - Dec 2025              </p>
-
-              <ul className="text-sm p-2">
-                <li>- Executive Member</li>
-              </ul>
-
-            </span>
+            <ul className="mt-5 space-y-3 text-gray-400">
+              <li>✓ Java programming and OOP concepts</li>
+              <li>✓ PostgreSQL database connectivity</li>
+              <li>✓ CRUD operations</li>
+              <li>✓ Problem-solving and debugging</li>
+              <li>✓ Git and GitHub version control</li>
+            </ul>
           </div>
 
+          {/* Web Development */}
+          <div className="experience-card bg-[#111827] border border-gray-700 rounded-2xl p-8">
+            <h2 className="text-2xl font-bold text-purple-400 mb-4">
+              Web Development
+            </h2>
 
-          <div
-            className="
-              flex gap-10
-              bg-slate-950 bg-opacity-45
-              mt-4 rounded-lg p-5 items-center
-              text-white
-              transform translate-x-10 opacity-0
-              animate-[slideIn_0.8s_0.3s_ease-out_forwards]
-              hover:scale-105
-              transition duration-300
-            "
-          >
-            <span>
+            <p className="text-gray-300 leading-7">
+              Building modern and responsive web applications while improving
+              frontend and backend development skills through continuous
+              learning and practical projects.
+            </p>
 
-              <h2 className="leading-tight text-lg font-semibold">
-                Spring Boot
-              </h2>
-
-              <p className="text-sm leading-tight font-thin mt-1">
-                2025 - Present
-              </p>
-
-              <ul className="text-sm p-2">
-                <li>- Work as Full Stack Developer</li>
-                <li>- Project Development</li>
-              </ul>
-
-            </span>
+            <ul className="mt-5 space-y-3 text-gray-400">
+              <li>✓ HTML & CSS</li>
+              <li>✓ JavaScript</li>
+              <li>✓ React.js</li>
+              <li>✓ Java & Spring Boot</li>
+              <li>✓ MySQL & PostgreSQL</li>
+            </ul>
           </div>
 
         </div>
 
+        {/* Technology Badges */}
+        <div className="mt-16 text-center">
+          <h2 className="text-2xl md:text-3xl font-bold mb-8">
+            Technologies
+          </h2>
+
+          <div className="flex flex-wrap justify-center gap-4">
+          
+            <img
+              src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"
+              alt="Spring Boot"
+            />
+            <img
+              src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"
+              alt="Java"
+            />
+
+            <img
+              src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"
+              alt="PostgreSQL"
+            />
+          </div>
+        </div>
+
       </div>
-    </div>
+    </section>
   );
 };
 
