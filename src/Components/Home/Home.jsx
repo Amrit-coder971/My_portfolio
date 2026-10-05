@@ -15,7 +15,7 @@ const Home = () => {
           </h1>
 
           <p className="mt-3 text-base md:text-2xl tracking-tight">
-            IT Student | Full Stack Developer | Spring Boot | Video Editing
+            IT Student | Spring Boot | React | Video Editing
           </p>
 
           {/* Buttons */}
