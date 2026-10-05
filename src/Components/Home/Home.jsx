@@ -11,7 +11,7 @@ const Home = () => {
         {/* Left Content */}
         <div className="w-full md:w-3/5">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight tracking-tight">
-            <span className="text-[#465697]">Hi, I'm Ashik</span>
+            <span className="text-[#465697]"> Ashik Rana</span>
           </h1>
 
           <p className="mt-3 text-base md:text-2xl tracking-tight">

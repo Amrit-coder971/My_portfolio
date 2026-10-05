@@ -22,10 +22,14 @@ const ProjectCard = ({ title, main, image }) => {
       <div className="mt-2 p-2 md:p-4 flex gap-3">
 
         {/* Demo Button */}
-        <button className="text-white py-2 px-5 hover:scale-105 transition duration-300 font-semibold bg-[#465697]">
-          Demo
-        </button>
-
+      <a
+  href="https://ashikrana.com.np/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block text-white py-2 px-5 hover:scale-105 transition duration-300 font-semibold bg-[#465697]"
+>
+  Demo
+</a>
         {/* Source Code */}
         <a
           href="https://github.com/Amrit-coder971/Test"

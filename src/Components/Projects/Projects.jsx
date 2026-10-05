@@ -20,7 +20,8 @@ const Projects = () => {
           <ProjectCard
             image={bannerImg1}
             title="Personal Portfolio Website"
-            main="My personal portfolio website with full-stack development concepts, responsive design, and modern UI."
+            main="My personal portfolio website built with React, showcasing full-stack development concepts, responsive design, and a modern user interface.
+"
           />
 
         </div>
