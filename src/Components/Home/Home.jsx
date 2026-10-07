@@ -20,13 +20,18 @@ const Home = () => {
 
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 mt-7">
+                     <a href="#Contact">
+
             <button className="text-white py-2 px-6 text-base md:text-lg font-semibold rounded-full bg-[#465697] hover:opacity-85 hover:scale-105 transition duration-300">
               Contact Me
             </button>
+            </a>
+             <a href="#Projects">
 
             <button className="text-white py-2 px-6 text-base md:text-lg font-semibold rounded-full border-2 border-[#465697] hover:bg-[#465697] hover:scale-105 transition duration-300">
               View Projects
             </button>
+            </a>
           </div>
         </div>
 
